@@ -1,2 +1,0 @@
-# Test
-basic android projects
