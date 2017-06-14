@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffff"
     android:padding="20dp"
-    tools:context="com.example.android.welcomescreen.MainActivity"
-    android:background="#ffffff">
+    tools:context="com.example.android.welcomescreen.MainActivity">
+
     <TextView
+        android:id="@+id/textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HALA MADRID!"
-        android:textSize="40dp"
         android:background="#000000"
         android:textColor="#ffffff"
+        android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
